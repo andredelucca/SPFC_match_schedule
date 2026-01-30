@@ -1,1 +1,74 @@
-{}
+{
+    "831961": {
+        "hash": "4ddd932839c85086e419145bb6a4e007",
+        "rodada": "8",
+        "data": "21\/03\/2026",
+        "hora": "21:00",
+        "local": "Morumbi - Sao Paulo - SP",
+        "mandante": "São Paulo",
+        "visitante": "Palmeiras"
+    },
+    "831954": {
+        "hash": "d855940ba7a1ebc76b286baf9aa7618e",
+        "rodada": "7",
+        "data": "18\/03\/2026",
+        "hora": "20:00",
+        "local": "ARENA MRV - Belo Horizonte - MG",
+        "mandante": "Atlético Mineiro Saf",
+        "visitante": "São Paulo"
+    },
+    "831943": {
+        "hash": "5a2ea64339d41196994a8c5c244de330",
+        "rodada": "6",
+        "data": "15\/03\/2026",
+        "hora": "20:30",
+        "local": " Cícero de Souza Marques - Braganca Paulista - SP",
+        "mandante": "Red Bull Bragantino",
+        "visitante": "São Paulo"
+    },
+    "831931": {
+        "hash": "9400154ffd94982c6e29c0133480693b",
+        "rodada": "5",
+        "data": "12\/03\/2026",
+        "hora": "20:00",
+        "local": "Morumbi - Sao Paulo - SP",
+        "mandante": "São Paulo",
+        "visitante": "Chapecoense"
+    },
+    "831926": {
+        "hash": "c6c821915deae7d27f3228b7f8ed70e5",
+        "rodada": "4",
+        "data": "26\/02\/2026",
+        "hora": "20:00",
+        "local": "Couto Pereira - Curitiba - PR",
+        "mandante": "Coritiba S.a.f.",
+        "visitante": "São Paulo"
+    },
+    "831911": {
+        "hash": "b9e299763f45ebf6d45777c6f5c6525a",
+        "rodada": "3",
+        "data": "11\/02\/2026",
+        "hora": "21:30",
+        "local": "Morumbi - Sao Paulo - SP",
+        "mandante": "São Paulo",
+        "visitante": "Grêmio"
+    },
+    "831901": {
+        "hash": "d482325d4a23f9f0b176e1cf2183c0a4",
+        "rodada": "2",
+        "data": "04\/02\/2026",
+        "hora": "20:00",
+        "local": "Vila Belmiro - Santos - SP",
+        "mandante": "Santos Fc",
+        "visitante": "São Paulo"
+    },
+    "831891": {
+        "hash": "f841df5941bd813271624bd026f14fc4",
+        "rodada": "1",
+        "data": "28\/01\/2026",
+        "hora": "21:30",
+        "local": "Morumbi - Sao Paulo - SP",
+        "mandante": "São Paulo",
+        "visitante": "Flamengo"
+    }
+}
