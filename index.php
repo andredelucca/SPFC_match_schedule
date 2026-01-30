@@ -78,8 +78,35 @@ $eventosParaCalendario = array_values($cache);
 $ics = new IcsGenerator();
 $conteudo = $ics->gerar($eventosParaCalendario, $env);
 
-header('Content-Type: text/calendar; charset=utf-8');
-header('Content-Disposition: attachment; filename="spfc-brasileirao-2026.ics"');
+echo "<pre>";
+echo "Jogos novos ou alterados:\n\n";
 
-echo $conteudo;
+foreach ($novosEventos as $jogo) {
+    echo sprintf(
+        "Rodada %s - %s x %s\nData: %s %s\nLocal: %s\n\n",
+        $jogo['rodada'],
+        $jogo['mandante']['nome'],
+        $jogo['visitante']['nome'],
+        trim($jogo['data']),
+        $jogo['hora'],
+        $jogo['local']
+    );
+}
+echo "</pre>";
+
+$docsDir = __DIR__ . '/docs';
+
+if (!is_dir($docsDir)) {
+    mkdir($docsDir, 0777, true);
+}
+
+$icsPath = $docsDir . '/spfc-brasileirao-2026.ics';
+
+file_put_contents($icsPath, $conteudo);
+
+echo "<pre>";
+echo "Arquivo ICS atualizado com sucesso:\n";
+echo "docs/spfc-brasileirao-2026.ics\n";
+echo "</pre>";
+
 exit;
